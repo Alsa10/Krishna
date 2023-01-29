@@ -1,0 +1,12 @@
+Provider "aws"  {
+ region = "us-east-1"
+ access_key ="          "
+ secret_key ="          "
+}
+
+
+Resource "aws_instance" "ckIndia"  {
+    ami = "ami_   
+    Instance_type = "t2.micro"
+    
+}
